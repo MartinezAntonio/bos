@@ -1,0 +1,20 @@
+.main_container .top_nav {
+    display: block;
+    margin-left: 0 !important;
+}
+.nav-md .container.body .right_col {
+    padding: 10px 20px 0;
+    margin-left: 0 !important;
+}
+.nav-md .container.body .col-md-3.left_col {
+    min-height: 100%;
+    width: 0 !important;
+    padding: 0;
+    position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 1;
+}
+footer {
+    margin-left: 0 !important;
+}
