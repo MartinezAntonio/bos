@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="53cc11e9-82ee-4e16-ab79-73bee87514de" name="bos" url="http://96.125.165.23">
-        <fileTransfer host="96.125.165.23" port="21" rootFolder="/public_html" username="bos">
+        <fileTransfer host="96.125.165.23" port="21" rootFolder="/public_html" password="dfdbdff1dfc4dfdcdfcddf97dfc6dfe6df93df9cdf98dfde" username="bos">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>

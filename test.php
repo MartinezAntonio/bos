@@ -6,4 +6,3 @@
     <input type="submit" value="SEND">
 </form>
 <br>
-prueba

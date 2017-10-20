@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a6e2371-7e89-4176-b3c2-658da6617524" name="Default" comment="Prueba">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="9a6e2371-7e89-4176-b3c2-658da6617524" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/reserveNow.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,12 +25,145 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25185186">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reserveNow.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/reserveNow.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19110577">
+              <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+              <folding>
+                <marker date="1508454879359" expanded="true" signature="11297:11329" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="11564:11639" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508454879359" expanded="true" signature="11939:12072" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508454879359" expanded="true" signature="13528:13542" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="13816:13830" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="14123:14138" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="14139:15360" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="14197:14524" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="14254:14465" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="14333:14383" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="14582:15302" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="14639:14966" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="14706:14746" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="14844:14884" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="15023:15243" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="15090:15130" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="16175:16207" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="16442:16521" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508454879359" expanded="true" signature="16821:16954" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508454879359" expanded="true" signature="18410:18424" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="18698:18712" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="19007:19022" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="19023:20244" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="19081:19408" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="19138:19349" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="19217:19267" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="19466:20186" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="19523:19850" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="19590:19630" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="19728:19768" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="19907:20127" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="19974:20014" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="21051:21083" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="21314:21393" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508454879359" expanded="true" signature="21693:21826" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508454879359" expanded="true" signature="23282:23296" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="23570:23584" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="23879:23894" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="23895:25116" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="23953:24280" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="24010:24221" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="24089:24139" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="24338:25058" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="24395:24722" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="24462:24502" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="24600:24640" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="24779:24999" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="24846:24886" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="25926:25958" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="26191:26270" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508454879359" expanded="true" signature="26570:26703" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508454879359" expanded="true" signature="28159:28173" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="28447:28461" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="28756:28771" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="28772:29993" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="28830:29157" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="28887:29098" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="28966:29016" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="29215:29935" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="29272:29599" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="29339:29379" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="29477:29517" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="29656:29876" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="29723:29763" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="30802:30834" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="31067:31146" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508454879359" expanded="true" signature="31446:31579" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508454879359" expanded="true" signature="33035:33049" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="33323:33337" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="33632:33647" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="33648:34869" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="33706:34033" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="33763:33974" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="33842:33892" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="34091:34811" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="34148:34475" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="34215:34255" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="34353:34393" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="34532:34752" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="34599:34639" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="35675:35707" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="35938:36017" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508454879359" expanded="true" signature="36317:36450" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508454879359" expanded="true" signature="37906:37920" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="38194:38208" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="38503:38518" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="38519:39740" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="38577:38904" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="38634:38845" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="38713:38763" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="38962:39682" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="39019:39346" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="39086:39126" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="39224:39264" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="39403:39623" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="39470:39510" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="40550:40582" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="40815:40894" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508454879359" expanded="true" signature="41194:41327" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508454879359" expanded="true" signature="42789:42803" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="43077:43091" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="43386:43401" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="43402:44623" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="43460:43787" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="43517:43728" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="43596:43646" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="43845:44565" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="43902:44229" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="43969:44009" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="44107:44147" placeholder="..." />
+                <marker date="1508454879359" expanded="true" signature="44286:44506" placeholder="..." />
+                <marker date="1508454879359" expanded="false" signature="44353:44393" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/rooms.php" />
-        <option value="$PROJECT_DIR$/admin/createUsers.php" />
         <option value="$PROJECT_DIR$/admin/senderMails.php" />
         <option value="$PROJECT_DIR$/libs/models/ipnPaypalModel.php" />
         <option value="$PROJECT_DIR$/libs/models/bookerModel.php" />
@@ -141,6 +273,8 @@
         <option value="$PROJECT_DIR$/../bootstrap.min.css" />
         <option value="$PROJECT_DIR$/../index.php" />
         <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
+        <option value="$PROJECT_DIR$/admin/reserveNow.php" />
       </list>
     </option>
   </component>
@@ -151,6 +285,9 @@
   </component>
   <component name="NamedScopeManager">
     <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -166,7 +303,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -201,14 +338,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/AppServ/www/colegioserafico" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marlon\Documents\Bv2\bos\admin" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -261,6 +418,13 @@
       <workItem from="1507927674632" duration="22734000" />
       <workItem from="1508342147321" duration="1194000" />
     </task>
+    <task id="LOCAL-00001" summary="Prueba">
+      <created>1508434327993</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508434327993</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -273,17 +437,18 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16252822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5078125" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295711" sideWeight="0.4921875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.4921875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -293,6 +458,14 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -308,6 +481,158 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/reserveNow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508454879359" expanded="true" signature="11297:11329" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="11564:11639" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="11939:12072" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="13528:13542" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="13816:13830" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="14123:14138" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="14139:15360" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="14197:14524" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="14254:14465" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="14333:14383" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="14582:15302" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="14639:14966" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="14706:14746" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="14844:14884" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="15023:15243" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="15090:15130" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="16175:16207" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="16442:16521" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="16821:16954" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="18410:18424" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="18698:18712" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="19007:19022" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="19023:20244" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="19081:19408" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="19138:19349" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="19217:19267" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="19466:20186" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="19523:19850" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="19590:19630" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="19728:19768" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="19907:20127" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="19974:20014" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="21051:21083" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="21314:21393" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="21693:21826" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="23282:23296" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="23570:23584" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="23879:23894" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="23895:25116" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="23953:24280" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="24010:24221" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="24089:24139" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="24338:25058" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="24395:24722" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="24462:24502" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="24600:24640" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="24779:24999" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="24846:24886" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="25926:25958" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="26191:26270" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="26570:26703" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="28159:28173" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="28447:28461" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="28756:28771" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="28772:29993" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="28830:29157" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="28887:29098" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="28966:29016" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="29215:29935" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="29272:29599" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="29339:29379" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="29477:29517" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="29656:29876" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="29723:29763" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="30802:30834" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="31067:31146" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="31446:31579" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="33035:33049" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="33323:33337" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="33632:33647" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="33648:34869" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="33706:34033" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="33763:33974" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="33842:33892" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="34091:34811" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="34148:34475" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="34215:34255" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="34353:34393" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="34532:34752" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="34599:34639" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="35675:35707" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="35938:36017" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="36317:36450" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="37906:37920" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="38194:38208" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="38503:38518" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="38519:39740" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="38577:38904" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="38634:38845" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="38713:38763" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="38962:39682" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="39019:39346" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="39086:39126" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="39224:39264" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="39403:39623" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="39470:39510" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="40550:40582" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="40815:40894" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="41194:41327" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="42789:42803" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="43077:43091" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="43386:43401" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="43402:44623" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="43460:43787" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="43517:43728" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="43596:43646" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="43845:44565" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="43902:44229" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="43969:44009" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="44107:44147" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="44286:44506" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="44353:44393" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginCheck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/models/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lang/es.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -551,13 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/calendar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="302" column="120" selection-start-line="302" selection-start-column="120" selection-end-line="302" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/models/bookingEngineModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -593,11 +911,162 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/loginCheck.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/models/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2692307">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25185186">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/calendar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="302" column="120" selection-start-line="302" selection-start-column="120" selection-end-line="302" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/reserveNow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19110577">
+          <caret line="210" column="0" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+          <folding>
+            <marker date="1508454879359" expanded="true" signature="11297:11329" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="11564:11639" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="11939:12072" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="13528:13542" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="13816:13830" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="14123:14138" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="14139:15360" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="14197:14524" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="14254:14465" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="14333:14383" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="14582:15302" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="14639:14966" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="14706:14746" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="14844:14884" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="15023:15243" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="15090:15130" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="16175:16207" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="16442:16521" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="16821:16954" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="18410:18424" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="18698:18712" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="19007:19022" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="19023:20244" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="19081:19408" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="19138:19349" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="19217:19267" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="19466:20186" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="19523:19850" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="19590:19630" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="19728:19768" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="19907:20127" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="19974:20014" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="21051:21083" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="21314:21393" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="21693:21826" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="23282:23296" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="23570:23584" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="23879:23894" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="23895:25116" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="23953:24280" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="24010:24221" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="24089:24139" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="24338:25058" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="24395:24722" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="24462:24502" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="24600:24640" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="24779:24999" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="24846:24886" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="25926:25958" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="26191:26270" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="26570:26703" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="28159:28173" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="28447:28461" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="28756:28771" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="28772:29993" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="28830:29157" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="28887:29098" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="28966:29016" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="29215:29935" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="29272:29599" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="29339:29379" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="29477:29517" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="29656:29876" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="29723:29763" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="30802:30834" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="31067:31146" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="31446:31579" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="33035:33049" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="33323:33337" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="33632:33647" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="33648:34869" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="33706:34033" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="33763:33974" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="33842:33892" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="34091:34811" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="34148:34475" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="34215:34255" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="34353:34393" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="34532:34752" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="34599:34639" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="35675:35707" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="35938:36017" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="36317:36450" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="37906:37920" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="38194:38208" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="38503:38518" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="38519:39740" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="38577:38904" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="38634:38845" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="38713:38763" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="38962:39682" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="39019:39346" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="39086:39126" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="39224:39264" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="39403:39623" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="39470:39510" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="40550:40582" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="40815:40894" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508454879359" expanded="true" signature="41194:41327" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508454879359" expanded="true" signature="42789:42803" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="43077:43091" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="43386:43401" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="43402:44623" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="43460:43787" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="43517:43728" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="43596:43646" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="43845:44565" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="43902:44229" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="43969:44009" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="44107:44147" placeholder="..." />
+            <marker date="1508454879359" expanded="true" signature="44286:44506" placeholder="..." />
+            <marker date="1508454879359" expanded="false" signature="44353:44393" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
