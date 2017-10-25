@@ -3,7 +3,7 @@
 <head>
     <?php
     require_once('../libs/models/config.php');
-    $link=conect::conection();
+    $link = conect::conection();
     include('../session.php');
     include('../functions.php');
 
@@ -38,7 +38,8 @@
     <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
-
+    <!-- datepicker calls css-->
+    <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
 
     <script language='javascript'>
@@ -112,6 +113,7 @@
                             <div class="x_title">
                                 <h2>Reservations Summary</h2>
 
+
                                 <div class="clearfix"></div>
                             </div>
 
@@ -135,9 +137,9 @@
                                     <?php nameHotels($_POST['hotelID']) ?>
                                 <?php } else {
                                     $_POST['hotelID'] = $_SESSION['hotelID'];
-                                }    ?>
+                                } ?>
 
-                                <?php if ($_POST['hotelID']>0){  ?>
+                                <?php if ($_POST['hotelID'] > 0) { ?>
 
                                     <?php
                                     if ($_GET['mov'] == 'S') {
@@ -219,12 +221,12 @@
                                         <thead>
                                         <tr style="background-color: #F5F7FA">
                                             <th align="center"><a
-                                                        href="?ano=<?= $anterior_ano ?>&mes=<?= $anterior_mes ?>&campo=<?= $campo ?>&mov=S"><i
-                                                            class="fa fa-arrow-circle-left"></i></a></th>
+                                                    href="?ano=<?= $anterior_ano ?>&mes=<?= $anterior_mes ?>&campo=<?= $campo ?>&mov=S"><i
+                                                        class="fa fa-arrow-circle-left"></i></a></th>
                                             <th colspan=5><b><?= $mes_texto ?> / <?= $ano ?></b></th>
                                             <th align="center"><a
-                                                        href="?ano=<?= $proximo_ano ?>&mes=<?= $proximo_mes ?>&campo=<?= $campo ?>&mov=S"><i
-                                                            class="fa fa-arrow-circle-right"></i></a></th>
+                                                    href="?ano=<?= $proximo_ano ?>&mes=<?= $proximo_mes ?>&campo=<?= $campo ?>&mov=S"><i
+                                                        class="fa fa-arrow-circle-right"></i></a></th>
                                         </tr>
                                         <tr style="background-color: #F5F7FA">
                                             <th><b>Sun</b></th>
@@ -240,32 +242,39 @@
                                         <? for ($lin = 0; $lin <= $linha; $lin++) { ?>
 
                                             <tr>
-                                                <td >
+                                                <td>
 
                                                     <?php
-                                                    if ($domingos[$lin]>0) {
-                                                        $fecha_actual=date("Y-m-d");
-                                                        if ($domingos[$lin]<10){ $dia_num='0'.$domingos[$lin]; } else {$dia_num=$domingos[$lin];}
+                                                    if ($domingos[$lin] > 0) {
+                                                        $fecha_actual = date("Y-m-d");
+                                                        if ($domingos[$lin] < 10) {
+                                                            $dia_num = '0' . $domingos[$lin];
+                                                        } else {
+                                                            $dia_num = $domingos[$lin];
+                                                        }
                                                         $fecha2 = $ano . '-' . $mes . '-' . $dia_num;
 
-                                                        if ($fecha2>=$fecha_actual){
-                                                            echo '<a style="color: #337AB7;font-weight: bold">'.$domingos[$lin].' / '.$mes_texto.'</a>';
+                                                        if ($fecha2 >= $fecha_actual) {
+                                                            echo '<a style="color: #337AB7;font-weight: bold">' . $domingos[$lin] . ' / ' . $mes_texto . '</a>';
                                                             $fecha = $ano . '-' . $mes . '-' . $domingos[$lin];
-                                                            $consulta = $link->query("select * from tb_rooms WHERE hotelID='".$_POST['hotelID']."' and enable='Y' ");
+                                                            $consulta = $link->query("select * from tb_rooms WHERE hotelID='" . $_POST['hotelID'] . "' and enable='Y' ");
                                                             while ($row = $consulta->fetch_object()) {
-                                                                $price=0;$available=0; $enable='';$statusBtn='';
+                                                                $price = 0;
+                                                                $available = 0;
+                                                                $enable = '';
+                                                                $statusBtn = '';
                                                                 $consulta2 = $link->query("select * from tb_roomRates WHERE hotelID='" . $_POST['hotelID'] . "' and roomID='" . $row->roomID . "' and dateNight='" . $fecha . "' ");
                                                                 while ($row2 = $consulta2->fetch_object()) {
-                                                                    if ($row2->price<1 and $row2->enable == 'Y'){
-                                                                        $price = '<font color="red"><b>'.$row2->price.'</b></font>';
+                                                                    if ($row2->price < 1 and $row2->enable == 'Y') {
+                                                                        $price = '<font color="red"><b>' . $row2->price . '</b></font>';
                                                                     } else {
                                                                         $price = $row2->price;
                                                                     }
 
                                                                     $enable = $row2->enable;
 
-                                                                    if ($row2->available<1 and $row2->enable == 'Y'){
-                                                                        $available = '<font color="red"><b>'.$row2->available.'</b></font>';
+                                                                    if ($row2->available < 1 and $row2->enable == 'Y') {
+                                                                        $available = '<font color="red"><b>' . $row2->available . '</b></font>';
                                                                     } else {
                                                                         $available = $row2->available;
                                                                     }
@@ -276,7 +285,8 @@
                                                                         $statusBtn = '<input type="checkbox" value="Y" name="enable" disabled="disabled" class="js-switch" data-switchery="true" style="display: none;">';
                                                                     };
                                                                 }
-                                                                echo '
+                                                                if ($enable == 'Y' and $available > 0) {
+                                                                    echo '
                                                 <table  class="table table-bordered" style="font-size: 12px">
                                                   <thead>
                                                     <tr>
@@ -295,16 +305,16 @@
                                                   </tbody>
 
                                                 </table>';
+                                                                }
 
                                                             }
-                                                        }else {
-                                                            echo '<a style="color: #337AB7; font-size: small">'.$domingos[$lin].' / '.$mes_texto.'</a>';
+                                                        } else {
+                                                            echo '<a style="color: #337AB7; font-size: small">' . $domingos[$lin] . ' / ' . $mes_texto . '</a>';
                                                         }
-                                                        }
+                                                    }
 
 
                                                     ?>
-
 
 
                                                 </td>
@@ -314,29 +324,36 @@
                                                     onclick="mclick(this);get_data('<?= $segundas[$lin] ?>','<?= $mes ?>','<?= $ano ?>')"<? } ?>>
 
                                                     <?php
-                                                    if ($segundas[$lin]>0) {
-                                                        $fecha_actual=date("Y-m-d");
-                                                        if ($segundas[$lin]<10){ $dia_num='0'.$segundas[$lin]; } else {$dia_num=$segundas[$lin];}
+                                                    if ($segundas[$lin] > 0) {
+                                                        $fecha_actual = date("Y-m-d");
+                                                        if ($segundas[$lin] < 10) {
+                                                            $dia_num = '0' . $segundas[$lin];
+                                                        } else {
+                                                            $dia_num = $segundas[$lin];
+                                                        }
                                                         $fecha2 = $ano . '-' . $mes . '-' . $dia_num;
 
-                                                        if ($fecha2>=$fecha_actual){
-                                                            echo '<a style="color: #337AB7;font-weight: bold">'.$segundas[$lin].' / '.$mes_texto.'</a>';
+                                                        if ($fecha2 >= $fecha_actual) {
+                                                            echo '<a style="color: #337AB7;font-weight: bold">' . $segundas[$lin] . ' / ' . $mes_texto . '</a>';
                                                             $fecha = $ano . '-' . $mes . '-' . $segundas[$lin];
                                                             $consulta = $link->query("select * from tb_rooms WHERE hotelID='" . $_POST['hotelID'] . "' and enable='Y' ");
                                                             while ($row = $consulta->fetch_object()) {
-                                                                $price=0;$available=0; $enable='';$statusBtn='';
+                                                                $price = 0;
+                                                                $available = 0;
+                                                                $enable = '';
+                                                                $statusBtn = '';
                                                                 $consulta2 = $link->query("select * from tb_roomRates WHERE hotelID='" . $_POST['hotelID'] . "' and roomID='" . $row->roomID . "' and dateNight='" . $fecha . "' ");
                                                                 while ($row2 = $consulta2->fetch_object()) {
-                                                                    if ($row2->price<1 and $row2->enable == 'Y'){
-                                                                        $price = '<font color="red"><b>'.$row2->price.'</b></font>';
+                                                                    if ($row2->price < 1 and $row2->enable == 'Y') {
+                                                                        $price = '<font color="red"><b>' . $row2->price . '</b></font>';
                                                                     } else {
                                                                         $price = $row2->price;
                                                                     }
 
                                                                     $enable = $row2->enable;
 
-                                                                    if ($row2->available<1 and $row2->enable == 'Y'){
-                                                                        $available = '<font color="red"><b>'.$row2->available.'</b></font>';
+                                                                    if ($row2->available < 1 and $row2->enable == 'Y') {
+                                                                        $available = '<font color="red"><b>' . $row2->available . '</b></font>';
                                                                     } else {
                                                                         $available = $row2->available;
                                                                     }
@@ -348,8 +365,8 @@
                                                                     };
                                                                 }
 
-
-                                                                echo '
+                                                                if ($enable == 'Y' and $available > 0) {
+                                                                    echo '
                                                 <table  class="table table-bordered" style="font-size: 12px">
                                                   <thead>
                                                     <tr>
@@ -368,12 +385,13 @@
                                                   </tbody>
 
                                                 </table>';
+                                                                }
 
                                                             }
-                                                        }else {
-                                                            echo '<a style="color: #337AB7; font-size: small">'.$segundas[$lin].' / '.$mes_texto.'</a>';
+                                                        } else {
+                                                            echo '<a style="color: #337AB7; font-size: small">' . $segundas[$lin] . ' / ' . $mes_texto . '</a>';
                                                         }
-                                                        }
+                                                    }
 
 
                                                     ?>
@@ -385,29 +403,36 @@
                                                     onclick="mclick(this);get_data('<?= $tercas[$lin] ?>','<?= $mes ?>','<?= $ano ?>')"<? } ?>>
 
                                                     <?php
-                                                    if ($tercas[$lin]>0) {
-                                                        $fecha_actual=date("Y-m-d");
-                                                        if ($tercas[$lin]<10){ $dia_num='0'.$tercas[$lin]; } else {$dia_num=$tercas[$lin];}
+                                                    if ($tercas[$lin] > 0) {
+                                                        $fecha_actual = date("Y-m-d");
+                                                        if ($tercas[$lin] < 10) {
+                                                            $dia_num = '0' . $tercas[$lin];
+                                                        } else {
+                                                            $dia_num = $tercas[$lin];
+                                                        }
                                                         $fecha2 = $ano . '-' . $mes . '-' . $dia_num;
 
-                                                        if ($fecha2>=$fecha_actual){
-                                                            echo '<a style="color: #337AB7;font-weight: bold">'.$tercas[$lin].' / '.$mes_texto.'</a>';
+                                                        if ($fecha2 >= $fecha_actual) {
+                                                            echo '<a style="color: #337AB7;font-weight: bold">' . $tercas[$lin] . ' / ' . $mes_texto . '</a>';
                                                             $fecha = $ano . '-' . $mes . '-' . $tercas[$lin];
                                                             $consulta = $link->query("select * from tb_rooms WHERE hotelID='" . $_POST['hotelID'] . "' and enable='Y' ");
                                                             while ($row = $consulta->fetch_object()) {
-                                                                $price=0;$available=0; $enable='';$statusBtn='';
+                                                                $price = 0;
+                                                                $available = 0;
+                                                                $enable = '';
+                                                                $statusBtn = '';
                                                                 $consulta2 = $link->query("select * from tb_roomRates WHERE hotelID='" . $_POST['hotelID'] . "' and roomID='" . $row->roomID . "' and dateNight='" . $fecha . "' ");
                                                                 while ($row2 = $consulta2->fetch_object()) {
-                                                                    if ($row2->price<1 and $row2->enable == 'Y'){
-                                                                        $price = '<font color="red"><b>'.$row2->price.'</b></font>';
+                                                                    if ($row2->price < 1 and $row2->enable == 'Y') {
+                                                                        $price = '<font color="red"><b>' . $row2->price . '</b></font>';
                                                                     } else {
                                                                         $price = $row2->price;
                                                                     }
 
                                                                     $enable = $row2->enable;
 
-                                                                    if ($row2->available<1 and $row2->enable == 'Y'){
-                                                                        $available = '<font color="red"><b>'.$row2->available.'</b></font>';
+                                                                    if ($row2->available < 1 and $row2->enable == 'Y') {
+                                                                        $available = '<font color="red"><b>' . $row2->available . '</b></font>';
                                                                     } else {
                                                                         $available = $row2->available;
                                                                     }
@@ -419,8 +444,8 @@
                                                                     };
                                                                 }
 
-
-                                                                echo '
+                                                                if ($enable == 'Y' and $available > 0) {
+                                                                    echo '
                                                 <table  class="table table-bordered" style="font-size: 12px">
                                                   <thead>
                                                     <tr>
@@ -439,12 +464,13 @@
                                                   </tbody>
 
                                                 </table>';
+                                                                }
 
                                                             }
-                                                        }else {
-                                                            echo '<a style="color: #337AB7; font-size: small">'.$tercas[$lin].' / '.$mes_texto.'</a>';
+                                                        } else {
+                                                            echo '<a style="color: #337AB7; font-size: small">' . $tercas[$lin] . ' / ' . $mes_texto . '</a>';
                                                         }
-                                                        }
+                                                    }
 
 
                                                     ?>
@@ -456,43 +482,46 @@
                                                     onclick="mclick(this);get_data('<?= $quartas[$lin] ?>','<?= $mes ?>','<?= $ano ?>')"<? } ?>>
 
                                                     <?php
-                                                    if ($quartas[$lin]>0) {
+                                                    if ($quartas[$lin] > 0) {
 
-                                                        $fecha_actual=date("Y-m-d");
-                                                        if ($quartas[$lin]<10){ $dia_num='0'.$quartas[$lin]; } else {$dia_num=$quartas[$lin];}
+                                                        $fecha_actual = date("Y-m-d");
+                                                        if ($quartas[$lin] < 10) {
+                                                            $dia_num = '0' . $quartas[$lin];
+                                                        } else {
+                                                            $dia_num = $quartas[$lin];
+                                                        }
                                                         $fecha2 = $ano . '-' . $mes . '-' . $dia_num;
 
-                                                        if ($fecha2>=$fecha_actual){
-                                                            echo '<a style="color: #337AB7;font-weight: bold">'.$quartas[$lin].' / '.$mes_texto.'</a>';
+                                                        if ($fecha2 >= $fecha_actual) {
+                                                            echo '<a style="color: #337AB7;font-weight: bold">' . $quartas[$lin] . ' / ' . $mes_texto . '</a>';
                                                             $fecha = $ano . '-' . $mes . '-' . $quartas[$lin];
                                                             $consulta = $link->query("select * from tb_rooms WHERE hotelID='" . $_POST['hotelID'] . "' and enable='Y' ");
                                                             while ($row = $consulta->fetch_object()) {
-                                                                $price=0;$available=0; $enable='';$statusBtn='';
+                                                                $roomID=$row->roomID;
+                                                                $price = 0;
+                                                                $available = 0;
+                                                                $enable = '';
+                                                                $statusBtn = '';
                                                                 $consulta2 = $link->query("select * from tb_roomRates WHERE hotelID='" . $_POST['hotelID'] . "' and roomID='" . $row->roomID . "' and dateNight='" . $fecha . "' ");
                                                                 while ($row2 = $consulta2->fetch_object()) {
-                                                                    if ($row2->price<1 and $row2->enable == 'Y'){
-                                                                        $price = '<font color="red"><b>'.$row2->price.'</b></font>';
+                                                                    if ($row2->price < 1 and $row2->enable == 'Y') {
+                                                                        $price = '<font color="red"><b>' . $row2->price . '</b></font>';
                                                                     } else {
                                                                         $price = $row2->price;
                                                                     }
 
                                                                     $enable = $row2->enable;
 
-                                                                    if ($row2->available<1 and $row2->enable == 'Y'){
-                                                                        $available = '<font color="red"><b>'.$row2->available.'</b></font>';
+                                                                    if ($row2->available < 1 and $row2->enable == 'Y') {
+                                                                        $available = '<font color="red"><b>' . $row2->available . '</b></font>';
                                                                     } else {
                                                                         $available = $row2->available;
                                                                     }
 
-                                                                    if ($row2->enable == 'Y') {
-                                                                        $statusBtn = '<input type="checkbox" value="Y" name="enable" disabled="disabled" class="js-switch" checked data-switchery="true" style="display: none;">';
-                                                                    } else {
-                                                                        $statusBtn = '<input type="checkbox" value="Y" name="enable" disabled="disabled" class="js-switch" data-switchery="true" style="display: none;">';
-                                                                    };
                                                                 }
 
-
-                                                                echo '
+                                                                if ($enable == 'Y' and $available > 0) {
+                                                                    echo '
                                                 <table  class="table table-bordered" style="font-size: 12px">
                                                   <thead>
                                                     <tr>
@@ -502,7 +531,7 @@
                                                   <tbody>
                                                     <tr>
                                                       <td style="font-size: 12px;padding: 2px 2px 2px 2px" >Price: $ ' . $price . ' </td>
-                                                      <td style="font-size: 12px;padding: 2px 2px 2px 2px">' . $statusBtn . '</td>
+                                                      <td style="font-size: 12px;padding: 2px 2px 2px 2px"><button style="font-size: 12px;padding: 1px 1px 1px 1px" type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg'.$roomID.'">book</button></td>
                                                     </tr>
                                                     <tr>
                                                       <td style="font-size: 12px;padding: 2px 2px 2px 2px" colspan="2">Rooms available: ' . $available . ' </td>
@@ -511,15 +540,53 @@
                                                   </tbody>
 
                                                 </table>';
+                                                                } ?>
+                                                                <div class="modal fade bs-example-modal-lg<?php echo $roomID ?>" tabindex="-1" role="dialog"
+                                                                     aria-hidden="true">
+                                                                    <div class="modal-dialog modal-lg">
+                                                                        <div class="modal-content">
 
-                                                            }
-                                                        }else {
-                                                            echo '<a style="color: #337AB7; font-size: small">'.$quartas[$lin].' / '.$mes_texto.'</a>';
+                                                                            <div class="modal-header">
+                                                                                <button type="button" class="close" data-dismiss="modal"><span
+                                                                                        aria-hidden="true">×</span>
+                                                                                </button>
+                                                                                <h4 class="modal-title" id="myModalLabel"><?php echo $row->name?></h4>
+                                                                            </div>
+                                                                            <div class="modal-body">
+
+
+                                                                                <div class="form-group">
+                                                                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                                                                        <b>Date ranges:</b>
+                                                                                        <div class="input-daterange" id="datepicker" style="display:inline;">
+                                                                                            <div class="form-group">
+                                                                                                <input type="text" class="form-control input-number" name="daterange_rates" id="daterange_rates" maxlength="0" autocomplete="off" required placeholder="Dates" readonly>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+
+
+                                                                            </div>
+                                                                            <div class="modal-footer">
+                                                                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                                                                    Close
+                                                                                </button>
+                                                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            <?php    }
+                                                        } else {
+                                                            echo '<a style="color: #337AB7; font-size: small">' . $quartas[$lin] . ' / ' . $mes_texto . '</a>';
                                                         }
-                                                        }
+                                                    }
 
 
                                                     ?>
+
                                                 </td>
 
                                                 <td <? if (trim($quintas[$lin]) != "") { ?>bgcolor="#ffffff"
@@ -527,30 +594,37 @@
                                                     onclick="mclick(this);get_data('<?= $quintas[$lin] ?>','<?= $mes ?>','<?= $ano ?>')"<? } ?>>
 
                                                     <?php
-                                                    if ($quintas[$lin]>0) {
+                                                    if ($quintas[$lin] > 0) {
 
-                                                        $fecha_actual=date("Y-m-d");
-                                                        if ($quintas[$lin]<10){ $dia_num='0'.$quintas[$lin]; } else {$dia_num=$quintas[$lin];}
+                                                        $fecha_actual = date("Y-m-d");
+                                                        if ($quintas[$lin] < 10) {
+                                                            $dia_num = '0' . $quintas[$lin];
+                                                        } else {
+                                                            $dia_num = $quintas[$lin];
+                                                        }
                                                         $fecha2 = $ano . '-' . $mes . '-' . $dia_num;
 
-                                                        if ($fecha2>=$fecha_actual){
-                                                            echo '<a style="color: #337AB7;font-weight: bold">'.$quintas[$lin].' / '.$mes_texto.'</a>';
+                                                        if ($fecha2 >= $fecha_actual) {
+                                                            echo '<a style="color: #337AB7;font-weight: bold">' . $quintas[$lin] . ' / ' . $mes_texto . '</a>';
                                                             $fecha = $ano . '-' . $mes . '-' . $quintas[$lin];
                                                             $consulta = $link->query("select * from tb_rooms WHERE hotelID='" . $_POST['hotelID'] . "' and enable='Y' ");
                                                             while ($row = $consulta->fetch_object()) {
-                                                                $price=0;$available=0; $enable='';$statusBtn='';
+                                                                $price = 0;
+                                                                $available = 0;
+                                                                $enable = '';
+                                                                $statusBtn = '';
                                                                 $consulta2 = $link->query("select * from tb_roomRates WHERE hotelID='" . $_POST['hotelID'] . "' and roomID='" . $row->roomID . "' and dateNight='" . $fecha . "' ");
                                                                 while ($row2 = $consulta2->fetch_object()) {
-                                                                    if ($row2->price<1 and $row2->enable == 'Y'){
-                                                                        $price = '<font color="red"><b>'.$row2->price.'</b></font>';
+                                                                    if ($row2->price < 1 and $row2->enable == 'Y') {
+                                                                        $price = '<font color="red"><b>' . $row2->price . '</b></font>';
                                                                     } else {
                                                                         $price = $row2->price;
                                                                     }
 
                                                                     $enable = $row2->enable;
 
-                                                                    if ($row2->available<1 and $row2->enable == 'Y'){
-                                                                        $available = '<font color="red"><b>'.$row2->available.'</b></font>';
+                                                                    if ($row2->available < 1 and $row2->enable == 'Y') {
+                                                                        $available = '<font color="red"><b>' . $row2->available . '</b></font>';
                                                                     } else {
                                                                         $available = $row2->available;
                                                                     }
@@ -562,8 +636,8 @@
                                                                     };
                                                                 }
 
-
-                                                                echo '
+                                                                if ($enable == 'Y' and $available > 0) {
+                                                                    echo '
                                                 <table  class="table table-bordered" style="font-size: 12px">
                                                   <thead>
                                                     <tr>
@@ -582,12 +656,13 @@
                                                   </tbody>
 
                                                 </table>';
+                                                                }
 
                                                             }
-                                                        }else {
-                                                            echo '<a style="color: #337AB7; font-size: small">'.$quintas[$lin].' / '.$mes_texto.'</a>';
+                                                        } else {
+                                                            echo '<a style="color: #337AB7; font-size: small">' . $quintas[$lin] . ' / ' . $mes_texto . '</a>';
                                                         }
-                                                        }
+                                                    }
 
 
                                                     ?>
@@ -598,30 +673,37 @@
                                                     onclick="mclick(this);get_data('<?= $sextas[$lin] ?>','<?= $mes ?>','<?= $ano ?>')"<? } ?>>
 
                                                     <?php
-                                                    if ($sextas[$lin]>0) {
+                                                    if ($sextas[$lin] > 0) {
 
-                                                        $fecha_actual=date("Y-m-d");
-                                                        if ($sextas[$lin]<10){ $dia_num='0'.$sextas[$lin]; } else {$dia_num=$sextas[$lin];}
+                                                        $fecha_actual = date("Y-m-d");
+                                                        if ($sextas[$lin] < 10) {
+                                                            $dia_num = '0' . $sextas[$lin];
+                                                        } else {
+                                                            $dia_num = $sextas[$lin];
+                                                        }
                                                         $fecha2 = $ano . '-' . $mes . '-' . $dia_num;
 
-                                                        if ($fecha2>=$fecha_actual){
-                                                            echo '<a style="color: #337AB7;font-weight: bold">'.$sextas[$lin].' / '.$mes_texto.'</a>';
+                                                        if ($fecha2 >= $fecha_actual) {
+                                                            echo '<a style="color: #337AB7;font-weight: bold">' . $sextas[$lin] . ' / ' . $mes_texto . '</a>';
                                                             $fecha = $ano . '-' . $mes . '-' . $sextas[$lin];
                                                             $consulta = $link->query("select * from tb_rooms WHERE hotelID='" . $_POST['hotelID'] . "' and enable='Y' ");
                                                             while ($row = $consulta->fetch_object()) {
-                                                                $price=0;$available=0; $enable='';$statusBtn='';
+                                                                $price = 0;
+                                                                $available = 0;
+                                                                $enable = '';
+                                                                $statusBtn = '';
                                                                 $consulta2 = $link->query("select * from tb_roomRates WHERE hotelID='" . $_POST['hotelID'] . "' and roomID='" . $row->roomID . "' and dateNight='" . $fecha . "' ");
                                                                 while ($row2 = $consulta2->fetch_object()) {
-                                                                    if ($row2->price<1 and $row2->enable == 'Y'){
-                                                                        $price = '<font color="red"><b>'.$row2->price.'</b></font>';
+                                                                    if ($row2->price < 1 and $row2->enable == 'Y') {
+                                                                        $price = '<font color="red"><b>' . $row2->price . '</b></font>';
                                                                     } else {
                                                                         $price = $row2->price;
                                                                     }
 
                                                                     $enable = $row2->enable;
 
-                                                                    if ($row2->available<1 and $row2->enable == 'Y'){
-                                                                        $available = '<font color="red"><b>'.$row2->available.'</b></font>';
+                                                                    if ($row2->available < 1 and $row2->enable == 'Y') {
+                                                                        $available = '<font color="red"><b>' . $row2->available . '</b></font>';
                                                                     } else {
                                                                         $available = $row2->available;
                                                                     }
@@ -633,8 +715,8 @@
                                                                     };
                                                                 }
 
-
-                                                                echo '
+                                                                if ($enable == 'Y' and $available > 0) {
+                                                                    echo '
                                                 <table  class="table table-bordered" style="font-size: 12px">
                                                   <thead>
                                                     <tr>
@@ -653,12 +735,13 @@
                                                   </tbody>
 
                                                 </table>';
+                                                                }
 
                                                             }
                                                         } else {
-                                                            echo '<a style="color: #337AB7; font-size: small">'.$sextas[$lin].' / '.$mes_texto.'</a>';
+                                                            echo '<a style="color: #337AB7; font-size: small">' . $sextas[$lin] . ' / ' . $mes_texto . '</a>';
                                                         }
-                                                        }
+                                                    }
 
 
                                                     ?>
@@ -670,30 +753,37 @@
                                                     onclick="mclick(this);get_data('<?= $sabados[$lin] ?>','<?= $mes ?>','<?= $ano ?>')"<? } ?>>
 
                                                     <?php
-                                                    if ($sabados[$lin]>0) {
+                                                    if ($sabados[$lin] > 0) {
 
-                                                        $fecha_actual=date("Y-m-d");
-                                                        if ($sabados[$lin]<10){ $dia_num='0'.$sabados[$lin]; } else {$dia_num=$sabados[$lin];}
+                                                        $fecha_actual = date("Y-m-d");
+                                                        if ($sabados[$lin] < 10) {
+                                                            $dia_num = '0' . $sabados[$lin];
+                                                        } else {
+                                                            $dia_num = $sabados[$lin];
+                                                        }
                                                         $fecha2 = $ano . '-' . $mes . '-' . $dia_num;
 
-                                                        if ($fecha2>=$fecha_actual){
-                                                            echo '<a style="color: #337AB7;font-weight: bold">'.$sabados[$lin].' / '.$mes_texto.'</a>';
+                                                        if ($fecha2 >= $fecha_actual) {
+                                                            echo '<a style="color: #337AB7;font-weight: bold">' . $sabados[$lin] . ' / ' . $mes_texto . '</a>';
                                                             $fecha = $ano . '-' . $mes . '-' . $sabados[$lin];
                                                             $consulta = $link->query("select * from tb_rooms WHERE hotelID='" . $_POST['hotelID'] . "' and enable='Y' ");
                                                             while ($row = $consulta->fetch_object()) {
-                                                                $price=0;$available=0; $enable='';$statusBtn='';
+                                                                $price = 0;
+                                                                $available = 0;
+                                                                $enable = '';
+                                                                $statusBtn = '';
                                                                 $consulta2 = $link->query("select * from tb_roomRates WHERE hotelID='" . $_POST['hotelID'] . "' and roomID='" . $row->roomID . "' and dateNight='" . $fecha . "' ");
                                                                 while ($row2 = $consulta2->fetch_object()) {
-                                                                    if ($row2->price<1 and $row2->enable == 'Y'){
-                                                                        $price = '<font color="red"><b><b>'.$row2->price.'</b></font>';
+                                                                    if ($row2->price < 1 and $row2->enable == 'Y') {
+                                                                        $price = '<font color="red"><b><b>' . $row2->price . '</b></font>';
                                                                     } else {
                                                                         $price = $row2->price;
                                                                     }
 
                                                                     $enable = $row2->enable;
 
-                                                                    if ($row2->available<1 and $row2->enable == 'Y'){
-                                                                        $available = '<font color="red"><b><b>'.$row2->available.'</b></font>';
+                                                                    if ($row2->available < 1 and $row2->enable == 'Y') {
+                                                                        $available = '<font color="red"><b><b>' . $row2->available . '</b></font>';
                                                                     } else {
                                                                         $available = $row2->available;
                                                                     }
@@ -705,8 +795,8 @@
                                                                     };
                                                                 }
 
-
-                                                                echo '
+                                                                if ($enable == 'Y' and $available > 0) {
+                                                                    echo '
                                                 <table  class="table table-bordered" style="font-size: 12px">
                                                   <thead>
                                                     <tr>
@@ -725,12 +815,13 @@
                                                   </tbody>
 
                                                 </table>';
+                                                                }
 
                                                             }
-                                                        }else {
-                                                            echo '<a style="color: #337AB7; font-size: small">'.$sabados[$lin].' / '.$mes_texto.'</a>';
+                                                        } else {
+                                                            echo '<a style="color: #337AB7; font-size: small">' . $sabados[$lin] . ' / ' . $mes_texto . '</a>';
                                                         }
-                                                        }
+                                                    }
 
 
                                                     ?>
@@ -793,6 +884,32 @@
 <script src="../vendors/starrr/dist/starrr.js"></script>
 <!-- Custom Theme Scripts -->
 <script src="../build/js/custom.min.js"></script>
+<!-- Custom Theme Scripts -->
+<script src="../js/custom.js"></script>
+
+<script>
+    /*DATERANGEPICKER*/
+    $('input[name="daterange_rates"]').daterangepicker({
+            opens: 'center',
+            autoApply: true,
+            autoUpdateInput: false,
+            locale: {
+                format: 'YYYY-MM-DD'
+            },
+            minDate: moment(),
+            startDate: moment(),
+            endDate: moment().subtract(-1, 'days')
+        },
+        function(start, end) {
+            $('#daterange_rates').attr("placeholder", start.format("MMM DD")+" to "+end.format("MMM DD"));
+            $('#date1').val(start.format('YYYY-MM-DD'));
+            $('#date2').val(end.format('YYYY-MM-DD'));
+        });
+</script>
+<!-- jQuery Smart Wizard -->
+<script src="../vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
+<!-- PNotify -->
+<script src="../vendors/pnotify/dist/pnotify.js"></script>
 
 </body>
 </html>

@@ -46,135 +46,183 @@
       <file leaf-file-name="reserveNow.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/reserveNow.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77524036">
-              <caret line="300" column="108" selection-start-line="300" selection-start-column="108" selection-end-line="300" selection-end-column="108" />
+            <state vertical-scroll-proportion="0.86178863">
+              <caret line="911" column="58" selection-start-line="911" selection-start-column="58" selection-end-line="911" selection-end-column="58" />
               <folding>
-                <marker date="1508512551137" expanded="true" signature="11728:11760" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="12003:12078" placeholder="select * fro..tb_rooms..." />
-                <marker date="1508512551137" expanded="true" signature="12390:12523" placeholder="select * fro..tb_roomRates..." />
-                <marker date="1508512551137" expanded="true" signature="14035:14049" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="14331:14345" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="14650:14665" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="14666:15887" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="14724:15051" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="14781:14992" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="14860:14910" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="15109:15829" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="15166:15493" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="15233:15273" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="15371:15411" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="15550:15770" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="15617:15657" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="16094:16109" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="16094:16126" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="17410:17442" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="17685:17764" placeholder="select * fro..tb_rooms..." />
-                <marker date="1508512551137" expanded="true" signature="18076:18209" placeholder="select * fro..tb_roomRates..." />
-                <marker date="1508512551137" expanded="true" signature="19721:19735" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="20017:20031" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="20338:20353" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="20354:21575" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="20412:20739" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="20469:20680" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="20548:20598" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="20797:21517" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="20854:21181" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="20921:20961" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="21059:21099" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="21238:21458" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="21305:21345" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="21782:21797" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="21782:21814" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="23084:23116" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="23355:23434" placeholder="select * fro..tb_rooms..." />
-                <marker date="1508512551137" expanded="true" signature="23746:23879" placeholder="select * fro..tb_roomRates..." />
-                <marker date="1508512551137" expanded="true" signature="25391:25405" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="25687:25701" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="26008:26023" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="26024:27245" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="26082:26409" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="26139:26350" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="26218:26268" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="26467:27187" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="26524:26851" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="26591:26631" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="26729:26769" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="26908:27128" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="26975:27015" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="27452:27484" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="28759:28791" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="29032:29111" placeholder="select * fro..tb_rooms..." />
-                <marker date="1508512551137" expanded="true" signature="29423:29556" placeholder="select * fro..tb_roomRates..." />
-                <marker date="1508512551137" expanded="true" signature="31068:31082" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="31364:31378" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="31685:31700" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="31701:32922" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="31759:32086" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="31816:32027" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="31895:31945" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="32144:32864" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="32201:32528" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="32268:32308" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="32406:32446" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="32585:32805" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="32652:32692" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="33129:33144" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="33129:33161" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="34436:34468" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="34709:34788" placeholder="select * fro..tb_rooms..." />
-                <marker date="1508512551137" expanded="true" signature="35100:35233" placeholder="select * fro..tb_roomRates..." />
-                <marker date="1508512551137" expanded="true" signature="36745:36759" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="37041:37055" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="37362:37377" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="37378:38599" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="37436:37763" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="37493:37704" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="37572:37622" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="37821:38541" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="37878:38205" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="37945:37985" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="38083:38123" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="38262:38482" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="38329:38369" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="38806:38820" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="38806:38838" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="40107:40139" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="40378:40457" placeholder="select * fro..tb_rooms..." />
-                <marker date="1508512551137" expanded="true" signature="40769:40902" placeholder="select * fro..tb_roomRates..." />
-                <marker date="1508512551137" expanded="true" signature="42414:42428" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="42710:42724" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="43031:43046" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="43047:44268" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="43105:43432" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="43162:43373" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="43241:43291" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="43490:44210" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="43547:43874" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="43614:43654" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="43752:43792" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="43931:44151" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="43998:44038" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="44476:44491" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="44476:44508" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="45783:45815" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="46056:46135" placeholder="select * fro..tb_rooms..." />
-                <marker date="1508512551137" expanded="true" signature="46447:46580" placeholder="select * fro..tb_roomRates..." />
-                <marker date="1508512551137" expanded="true" signature="48098:48112" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="48394:48408" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="48715:48730" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="48731:49952" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="48789:49116" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="48846:49057" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="48925:48975" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="49174:49894" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="49231:49558" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="49298:49338" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="49436:49476" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="49615:49835" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="49682:49722" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="50159:50173" placeholder="..." />
-                <marker date="1508512551137" expanded="true" signature="50159:50191" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1508964829963" expanded="true" signature="12087:12119" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="12370:12449" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508964829963" expanded="true" signature="12963:13096" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508964829963" expanded="true" signature="14622:14636" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="14918:14932" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="15346:15361" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="15362:16583" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="15420:15747" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="15477:15688" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="15556:15606" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="15805:16525" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="15862:16189" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="15929:15969" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="16067:16107" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="16246:16466" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="16313:16353" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="16857:16872" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="16857:16889" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="18426:18458" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="18709:18788" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508964829963" expanded="true" signature="19302:19435" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508964829963" expanded="true" signature="20961:20975" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="21257:21271" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="21686:21701" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="21702:22923" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="21760:22087" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="21817:22028" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="21896:21946" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="22145:22865" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="22202:22529" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="22269:22309" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="22407:22447" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="22586:22806" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="22653:22693" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="23197:23212" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="23197:23229" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="24753:24785" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="25032:25111" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508964829963" expanded="true" signature="25625:25758" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508964829963" expanded="true" signature="27284:27298" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="27580:27594" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="28009:28024" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="28025:29246" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="28083:28410" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="28140:28351" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="28219:28269" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="28468:29188" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="28525:28852" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="28592:28632" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="28730:28770" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="28909:29129" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="28976:29016" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="29520:29552" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="31081:31113" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="31362:31441" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508964829963" expanded="true" signature="32041:32174" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508964829963" expanded="true" signature="33735:33750" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="33751:35128" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="33809:34136" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="33866:34077" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="33945:33995" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="34194:35070" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="34251:34645" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="34251:34734" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="34318:34358" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="34456:34496" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="34513:34553" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="34529:34553" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="34791:35011" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="34858:34898" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="38877:38892" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="38877:38909" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="40439:40471" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="40720:40799" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508964829963" expanded="true" signature="41313:41446" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508964829963" expanded="true" signature="42972:42986" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="43268:43282" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="43697:43712" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="43713:44934" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="43771:44098" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="43828:44039" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="43907:43957" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="44156:44876" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="44213:44540" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="44280:44320" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="44418:44458" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="44597:44817" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="44664:44704" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="45208:45222" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="45208:45240" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="46763:46795" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="47042:47121" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508964829963" expanded="true" signature="47635:47768" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508964829963" expanded="true" signature="49294:49308" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="49590:49604" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="50019:50034" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="50035:51256" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="50093:50420" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="50150:50361" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="50229:50279" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="50478:51198" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="50535:50862" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="50602:50642" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="50740:50780" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="50919:51139" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="50986:51026" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="51530:51545" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="51530:51562" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="53091:53123" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="53372:53451" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508964829963" expanded="true" signature="53965:54098" placeholder="select * fro..tb_roomRates..." />
+                <marker date="1508964829963" expanded="true" signature="55630:55644" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="55926:55940" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="56355:56370" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="56371:57592" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="56429:56756" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="56486:56697" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="56565:56615" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="56814:57534" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="56871:57198" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="56938:56978" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="57076:57116" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="57255:57475" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="57322:57362" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="57866:57880" placeholder="..." />
+                <marker date="1508964829963" expanded="true" signature="57866:57898" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createPriceRooms.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/createPriceRooms.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6">
+              <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="247" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rooms.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/rooms.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.709091">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <marker date="1508433909755" expanded="true" signature="5636:5699" placeholder="select * fro..tb_rooms..." />
+                <marker date="1508433909755" expanded="true" signature="5982:6042" placeholder="select * fro..tb_rooms..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/users.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="25.527273">
+              <caret line="164" column="55" selection-start-line="164" selection-start-column="55" selection-end-line="164" selection-end-column="55" />
+              <folding>
+                <marker date="1508433909775" expanded="true" signature="4872:4931" placeholder="select * fro..tb_user..." />
+                <marker date="1508433909775" expanded="true" signature="5264:5326" placeholder="select * fro..tb_user..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.109091">
+              <caret line="155" column="37" selection-start-line="155" selection-start-column="35" selection-end-line="155" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -302,10 +350,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1436" />
-    <option name="y" value="-14" />
+    <option name="x" value="1414" />
+    <option name="y" value="78" />
     <option name="width" value="1788" />
-    <option name="height" value="995" />
+    <option name="height" value="930" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -318,7 +366,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -329,47 +377,10 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/AppServ/www/colegioserafico" />
+    <property name="last_opened_file_path" value="C:/AppServ/www/sisadem_demo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
   </component>
@@ -441,28 +452,34 @@
       <option name="project" value="LOCAL" />
       <updated>1508507060924</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Prueba">
+      <created>1508512590330</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1508512590330</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="87027000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1436" y="-14" width="1788" height="995" extended-state="0" />
+    <frame x="1414" y="78" width="1788" height="930" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16252822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5078125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.4921875" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886723" sideWeight="0.4921875" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -520,144 +537,138 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/reserveNow.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1508512551137" expanded="true" signature="11728:11760" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="12003:12078" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="12390:12523" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="14035:14049" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="14331:14345" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="14650:14665" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="14666:15887" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="14724:15051" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="14781:14992" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="14860:14910" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="15109:15829" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="15166:15493" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="15233:15273" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="15371:15411" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="15550:15770" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="15617:15657" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="16094:16109" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="16094:16126" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="17410:17442" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="17685:17764" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="18076:18209" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="19721:19735" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20017:20031" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20338:20353" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20354:21575" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20412:20739" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20469:20680" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20548:20598" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20797:21517" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20854:21181" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20921:20961" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="21059:21099" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="21238:21458" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="21305:21345" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="21782:21797" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="21782:21814" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="23084:23116" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="23355:23434" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="23746:23879" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="25391:25405" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="25687:25701" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26008:26023" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26024:27245" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26082:26409" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26139:26350" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26218:26268" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26467:27187" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26524:26851" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26591:26631" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26729:26769" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26908:27128" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26975:27015" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="27452:27484" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="28759:28791" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="29032:29111" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="29423:29556" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="31068:31082" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="31364:31378" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="31685:31700" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="31701:32922" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="31759:32086" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="31816:32027" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="31895:31945" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="32144:32864" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="32201:32528" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="32268:32308" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="32406:32446" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="32585:32805" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="32652:32692" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="33129:33144" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="33129:33161" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="34436:34468" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="34709:34788" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="35100:35233" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="36745:36759" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37041:37055" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37362:37377" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37378:38599" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37436:37763" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37493:37704" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37572:37622" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37821:38541" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37878:38205" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37945:37985" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="38083:38123" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="38262:38482" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="38329:38369" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="38806:38820" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="38806:38838" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="40107:40139" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="40378:40457" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="40769:40902" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="42414:42428" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="42710:42724" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43031:43046" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43047:44268" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43105:43432" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43162:43373" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43241:43291" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43490:44210" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43547:43874" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43614:43654" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43752:43792" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43931:44151" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43998:44038" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="44476:44491" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="44476:44508" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="45783:45815" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="46056:46135" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="46447:46580" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="48098:48112" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="48394:48408" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="48715:48730" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="48731:49952" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="48789:49116" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="48846:49057" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="48925:48975" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="49174:49894" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="49231:49558" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="49298:49338" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="49436:49476" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="49615:49835" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="49682:49722" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="50159:50173" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="50159:50191" placeholder="..." />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1508964829963" expanded="true" signature="12087:12119" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="12370:12449" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="12963:13096" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="14622:14636" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="14918:14932" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15346:15361" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15362:16583" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15420:15747" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15477:15688" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15556:15606" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15805:16525" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15862:16189" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15929:15969" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="16067:16107" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="16246:16466" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="16313:16353" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="16857:16872" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="16857:16889" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="18426:18458" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="18709:18788" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="19302:19435" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="20961:20975" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="21257:21271" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="21686:21701" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="21702:22923" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="21760:22087" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="21817:22028" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="21896:21946" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="22145:22865" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="22202:22529" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="22269:22309" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="22407:22447" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="22586:22806" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="22653:22693" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="23197:23212" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="23197:23229" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="24753:24785" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="25032:25111" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="25625:25758" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="27284:27298" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="27580:27594" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28009:28024" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28025:29246" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28083:28410" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28140:28351" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28219:28269" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28468:29188" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28525:28852" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28592:28632" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28730:28770" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28909:29129" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28976:29016" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="29520:29552" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="31081:31113" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="31362:31441" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="32041:32174" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="33735:33750" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="33751:35128" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="33809:34136" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="33866:34077" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="33945:33995" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34194:35070" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34251:34645" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34251:34734" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34318:34358" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34456:34496" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34513:34553" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34529:34553" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34791:35011" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34858:34898" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="38877:38892" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="38877:38909" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="40439:40471" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="40720:40799" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="41313:41446" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="42972:42986" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="43268:43282" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="43697:43712" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="43713:44934" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="43771:44098" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="43828:44039" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="43907:43957" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="44156:44876" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="44213:44540" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="44280:44320" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="44418:44458" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="44597:44817" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="44664:44704" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="45208:45222" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="45208:45240" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="46763:46795" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="47042:47121" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="47635:47768" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="49294:49308" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="49590:49604" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50019:50034" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50035:51256" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50093:50420" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50150:50361" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50229:50279" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50478:51198" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50535:50862" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50602:50642" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50740:50780" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50919:51139" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50986:51026" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="51530:51545" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="51530:51562" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="53091:53123" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="53372:53451" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="53965:54098" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="55630:55644" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="55926:55940" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56355:56370" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56371:57592" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56429:56756" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56486:56697" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56565:56615" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56814:57534" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56871:57198" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56938:56978" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="57076:57116" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="57255:57475" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="57322:57362" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="57866:57880" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="57866:57898" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -783,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="179" column="36" selection-start-line="179" selection-start-column="36" selection-end-line="179" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/views/reservationView.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -836,13 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="645" column="28" selection-start-line="645" selection-start-column="28" selection-end-line="645" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/createPriceRooms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -911,13 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="77" selection-start-line="52" selection-start-column="77" selection-end-line="52" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -1001,136 +991,176 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.109091">
+          <caret line="155" column="37" selection-start-line="155" selection-start-column="35" selection-end-line="155" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="25.527273">
+          <caret line="164" column="55" selection-start-line="164" selection-start-column="55" selection-end-line="164" selection-end-column="55" />
+          <folding>
+            <marker date="1508433909775" expanded="true" signature="4872:4931" placeholder="select * fro..tb_user..." />
+            <marker date="1508433909775" expanded="true" signature="5264:5326" placeholder="select * fro..tb_user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/rooms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.709091">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <marker date="1508433909755" expanded="true" signature="5636:5699" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508433909755" expanded="true" signature="5982:6042" placeholder="select * fro..tb_rooms..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/createPriceRooms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6">
+          <caret line="220" column="0" selection-start-line="220" selection-start-column="0" selection-end-line="247" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/reserveNow.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77524036">
-          <caret line="300" column="108" selection-start-line="300" selection-start-column="108" selection-end-line="300" selection-end-column="108" />
+        <state vertical-scroll-proportion="0.86178863">
+          <caret line="911" column="58" selection-start-line="911" selection-start-column="58" selection-end-line="911" selection-end-column="58" />
           <folding>
-            <marker date="1508512551137" expanded="true" signature="11728:11760" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="12003:12078" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="12390:12523" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="14035:14049" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="14331:14345" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="14650:14665" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="14666:15887" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="14724:15051" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="14781:14992" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="14860:14910" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="15109:15829" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="15166:15493" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="15233:15273" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="15371:15411" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="15550:15770" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="15617:15657" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="16094:16109" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="16094:16126" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="17410:17442" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="17685:17764" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="18076:18209" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="19721:19735" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20017:20031" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20338:20353" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20354:21575" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20412:20739" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20469:20680" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20548:20598" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20797:21517" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20854:21181" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="20921:20961" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="21059:21099" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="21238:21458" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="21305:21345" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="21782:21797" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="21782:21814" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="23084:23116" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="23355:23434" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="23746:23879" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="25391:25405" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="25687:25701" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26008:26023" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26024:27245" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26082:26409" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26139:26350" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26218:26268" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26467:27187" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26524:26851" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26591:26631" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26729:26769" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26908:27128" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="26975:27015" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="27452:27484" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="28759:28791" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="29032:29111" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="29423:29556" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="31068:31082" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="31364:31378" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="31685:31700" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="31701:32922" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="31759:32086" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="31816:32027" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="31895:31945" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="32144:32864" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="32201:32528" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="32268:32308" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="32406:32446" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="32585:32805" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="32652:32692" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="33129:33144" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="33129:33161" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="34436:34468" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="34709:34788" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="35100:35233" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="36745:36759" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37041:37055" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37362:37377" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37378:38599" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37436:37763" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37493:37704" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37572:37622" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37821:38541" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37878:38205" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="37945:37985" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="38083:38123" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="38262:38482" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="38329:38369" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="38806:38820" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="38806:38838" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="40107:40139" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="40378:40457" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="40769:40902" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="42414:42428" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="42710:42724" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43031:43046" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43047:44268" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43105:43432" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43162:43373" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43241:43291" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43490:44210" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43547:43874" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43614:43654" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43752:43792" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43931:44151" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="43998:44038" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="44476:44491" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="44476:44508" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="45783:45815" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="46056:46135" placeholder="select * fro..tb_rooms..." />
-            <marker date="1508512551137" expanded="true" signature="46447:46580" placeholder="select * fro..tb_roomRates..." />
-            <marker date="1508512551137" expanded="true" signature="48098:48112" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="48394:48408" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="48715:48730" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="48731:49952" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="48789:49116" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="48846:49057" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="48925:48975" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="49174:49894" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="49231:49558" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="49298:49338" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="49436:49476" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="49615:49835" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="49682:49722" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="50159:50173" placeholder="..." />
-            <marker date="1508512551137" expanded="true" signature="50159:50191" placeholder="..." />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#td#3;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1508964829963" expanded="true" signature="12087:12119" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="12370:12449" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="12963:13096" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="14622:14636" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="14918:14932" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15346:15361" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15362:16583" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15420:15747" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15477:15688" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15556:15606" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15805:16525" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15862:16189" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="15929:15969" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="16067:16107" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="16246:16466" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="16313:16353" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="16857:16872" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="16857:16889" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="18426:18458" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="18709:18788" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="19302:19435" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="20961:20975" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="21257:21271" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="21686:21701" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="21702:22923" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="21760:22087" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="21817:22028" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="21896:21946" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="22145:22865" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="22202:22529" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="22269:22309" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="22407:22447" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="22586:22806" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="22653:22693" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="23197:23212" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="23197:23229" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="24753:24785" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="25032:25111" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="25625:25758" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="27284:27298" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="27580:27594" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28009:28024" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28025:29246" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28083:28410" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28140:28351" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28219:28269" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28468:29188" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28525:28852" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28592:28632" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28730:28770" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28909:29129" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="28976:29016" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="29520:29552" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="31081:31113" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="31362:31441" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="32041:32174" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="33735:33750" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="33751:35128" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="33809:34136" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="33866:34077" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="33945:33995" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34194:35070" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34251:34645" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34251:34734" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34318:34358" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34456:34496" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34513:34553" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34529:34553" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34791:35011" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="34858:34898" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="38877:38892" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="38877:38909" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="40439:40471" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="40720:40799" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="41313:41446" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="42972:42986" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="43268:43282" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="43697:43712" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="43713:44934" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="43771:44098" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="43828:44039" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="43907:43957" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="44156:44876" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="44213:44540" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="44280:44320" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="44418:44458" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="44597:44817" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="44664:44704" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="45208:45222" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="45208:45240" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="46763:46795" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="47042:47121" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="47635:47768" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="49294:49308" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="49590:49604" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50019:50034" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50035:51256" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50093:50420" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50150:50361" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50229:50279" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50478:51198" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50535:50862" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50602:50642" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50740:50780" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50919:51139" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="50986:51026" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="51530:51545" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="51530:51562" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="53091:53123" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="53372:53451" placeholder="select * fro..tb_rooms..." />
+            <marker date="1508964829963" expanded="true" signature="53965:54098" placeholder="select * fro..tb_roomRates..." />
+            <marker date="1508964829963" expanded="true" signature="55630:55644" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="55926:55940" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56355:56370" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56371:57592" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56429:56756" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56486:56697" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56565:56615" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56814:57534" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56871:57198" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="56938:56978" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="57076:57116" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="57255:57475" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="57322:57362" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="57866:57880" placeholder="..." />
+            <marker date="1508964829963" expanded="true" signature="57866:57898" placeholder="..." />
           </folding>
         </state>
       </provider>
